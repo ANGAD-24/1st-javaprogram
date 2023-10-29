@@ -1,0 +1,17 @@
+// Find sum of two number
+
+
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Input first number :");
+        int sum1 = sc.nextInt();
+
+        System.out.print("Enter secomd number :");
+        int sum2 = sc.nextInt();
+
+        int sum = sum1 + sum2;
+        System.out.println(sum);
+    }
+}
